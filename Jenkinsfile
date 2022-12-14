@@ -24,7 +24,7 @@ pipeline {
     stage('Run the image') {
         steps {
             script{
-              sh 'docker run mija2022/demo:test'
+              sh 'docker run mija2022/demo:v1'
             }
         }
     }
